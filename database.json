@@ -1,0 +1,53 @@
+{
+  "longitude": 102.771597,
+  "latitude": 24.823473,
+  "SN": 1,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园水上森林",
+  "unit": "水上森林",
+  "datetime": "2020-10-01 12:06:08",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "午后的阳光，透过树叶，将树干和树叶的影子，清晰的倒映在清澈的水中，如梦如幻，美不胜收，在炎炎夏日里，送给眼睛满满的绿意。",
+  "id": 1,
+  "name": "水上森林",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/forest.svg",
+  "label": {
+
+    "content": "水上森林",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
+{
+  "longitude": 102.768528,
+  "latitude": 24.822986,
+  "SN": 2,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园科普广场",
+  "unit": "科普广场",
+  "datetime": "2020-09-20 15:25:06",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "纪泽华是伞兵",
+  "id": 2,
+  "name": "科普广场",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/square.svg",
+  "label": {
+    "content": "科普广场",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
