@@ -4,3 +4,4 @@
 ### 按database文件格式补充景点信息，注意不要在json里加逗号。
 ### iconpath路径：先上传icon到开发环境的静态网站里，然后填入数据库的格式为"域名/icons/filename.svg"（文件名不要用中文）
 ### picture路径：先上传picture到开发环境的静态网站里，然后填入数据库的格式为"域名/pictures/filename.svg"（文件名不要用中文）
+### 静态网站：云开发->更多->静态网站
