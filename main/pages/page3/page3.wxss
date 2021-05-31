@@ -1,0 +1,10 @@
+/* pages/page3/page3.wxss */
+
+.cu-bar {
+  padding-top: 30rpx !important;
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: 100rpx;
+  justify-content: space-between;
+}

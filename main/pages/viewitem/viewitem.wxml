@@ -1,0 +1,43 @@
+<!--pages/viewitem/viewitem.wxml-->
+<view class='nav-wrap' style='width: 100vw; height: {{statusBarHeight}}px;'>
+    <view class="" style="height: {{status}}px"></view>
+    <view class='nav-title' style='position: relative;width: 100vw;text-align: center;height: {{navHeight}}px;line-height: {{navHeight}}px'>
+      <!-- <view bindtap="back" style="cursor: pointer;position: absolute; top:{{(navHeight - 16) /2}}px;left: 15px; width: 20px; height: 20px;" >
+        <image bindtap="back" style="cursor: pointer;position: absolute; top:0px; left: 0px; width: 9px;height: 16px;" src="https://res.wx.qq.com/mmspraiweb_node/dist/static/openaiplugin/img/arrow.png"></image>
+      </view> -->
+      <view class="cu-bar bg-white">
+        <view class="action" bindtap="onTapBack">
+        <text class="cuIcon-back text-gray">返回</text> 
+        </view>
+        <view class="content text-bold">详情 </view>
+        </view>
+    </view>
+  </view>
+
+<view class="cu-card dynamic">
+  <view class="cu-item shadow">
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url({{iconpath}});"></view>
+        <view class="content flex-sub">
+          <view>{{title}}</view>
+          <view class="text-gray text-sm flex justify-between">
+            {{datetime}}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view>
+      {{desc}}
+    </view>
+    <view class="text-gray text-sm text-right padding">
+      <text class="cuIcon-attentionfill margin-lr-xs"></text> 10
+      <text class="cuIcon-appreciatefill margin-lr-xs"></text> 20
+      <text class="cuIcon-messagefill margin-lr-xs"></text> 30
+    </view>
+    <view class="grid flex-sub padding-lr {{isCard?'col-3 grid-square':'col-1'}}">
+      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url({{picture}});">
+      </view>
+    </view>
+  </view>
+</view>

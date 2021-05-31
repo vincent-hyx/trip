@@ -1,0 +1,25 @@
+<!--pages/page3/page3.wxml-->
+<view class="cu-bar bg-white">
+  <view class="action sub-title">
+    <text class="text-xl text-bold text-green">最新通知</text>
+    <text class="bg-green"></text>
+  </view>
+</view>
+<view class="cu-card article" wx:for="{{articleList}}" wx:key="key" wx:for-item="item">
+  <view class="cu-item shadow" data-title="{{item.title}}" data-article="{{item.article}}"
+    data-imageurl="{{item.picture}}" data-iconpath="{{item.iconPath}}" bindtap="gotoViewNote">
+    <view class="title">
+      <view class="text-cut">{{item.title}}</view>
+    </view>
+    <view class="content">
+      <image src="{{item.picture}}" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">{{item.article}}</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">{{item.unit}}</view>
+          <view class="cu-tag bg-green light sm round">{{item.datetime}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

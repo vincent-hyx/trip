@@ -1,0 +1,5 @@
+<!--pages/page2/page2.wxml-->
+<map id="map1" scale="{{scale}}" longitude="{{longitude}}" latitude="{{latitude}}" controls="{{controls}}"
+  bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange"
+  show-location>
+</map>

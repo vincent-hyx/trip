@@ -1,0 +1,32 @@
+<!--pages/page5/page5.wxml-->
+<view class="cu-bar bg-white">
+  <view class="action sub-title">
+    <text class="text-xl text-bold text-green">AI死线</text>
+    <text class="bg-green"></text>
+  </view>
+</view>
+<view class="cu-timeline"  wx:for="{{deadlineList}}" wx:key="key" wx:for-item="item">
+  <view class="cu-time">{{item.date}}</view>
+
+  <view class="cu-item cuIcon-noticefill">
+    <view class="bg-green shadow-blur content">
+      <view class="cu-list menu-avatar radius"  wx:for="{{item.nodes}}" wx:key="nodesKey" wx:for-item="nodesItem">
+
+        <view class="cu-item" data-title="{{nodesItem.title}}" data-article="{{nodesItem.article}}"
+          data-imageurl="{{nodesItem.picture}}" data-iconpath="{{nodesItem.iconPath}}" bindtap="gotoViewNote">
+          <view class="cu-avatar round lg" style="background-image:url({{nodesItem.iconPath}});"></view>
+          <view class="content">
+            <view class="cu-tag bg-red light df round">{{nodesItem.datetime}}</view>
+            <view class="text-gray text-sm">
+              <text class="cuIcon-infofill text-red"></text>{{nodesItem.title}}</view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">{{nodesItem.unit}}</view>
+            <view class="cu-tag round bg-grey sm">{{nodesItem.sn}}</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

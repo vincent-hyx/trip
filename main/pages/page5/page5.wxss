@@ -1,0 +1,39 @@
+/* pages/page5/page5.wxss */
+.cu-list.menu-avatar>.cu-item {
+  position: relative;
+  display: flex;
+  padding-right: 10rpx;
+  height: 220rpx !important;
+  background-color: var(--white);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cu-timeline>.cu-item>.content {
+  padding: 0rpx !important;
+  border-radius: 6rpx;
+  display: block;
+  line-height: 1.6;
+}
+
+.cu-bar {
+    padding-top: 30rpx !important;
+    display: flex;
+    position: relative;
+    align-items: center;
+    min-height: 100rpx;
+    justify-content: space-between;
+}
+
+.cu-timeline .cu-time {
+  width: 140rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 26rpx;
+  color: #888;
+  display: block;
+}
+
+.cu-list+.cu-list {
+  margin-top: 0rpx;
+}

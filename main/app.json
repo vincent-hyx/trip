@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/splash/splash",
+    "pages/viewitem/viewitem"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#f2f2f2",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "image/老师2.png",
+        "selectedIconPath": "image/老师.png",
+        "text": "我是你爹"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "iconPath": "image/地图2.png",
+        "selectedIconPath": "image/地图.png",
+        "text": "游览地图"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio", "location"],
+  "plugins": {
+    "chatbot": {
+      "version": "1.1.24",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}
