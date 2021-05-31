@@ -1,3 +1,5 @@
+坐标拾取系统请用：https://jingweidu.bmcx.com/
+
 # 云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
