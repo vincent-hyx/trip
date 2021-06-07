@@ -52,11 +52,11 @@
   }
 }
 {
-  "longitude": 102.76865501616285,
-  "latitude": 24.818768674677116,
+  "longitude": 102.768655,
+  "latitude": 24.818768,
   "SN": 3,
-  "width": "5px",
-  "height": "5px",
+  "width": "40",
+  "height": "40",
   "title": "捞鱼河湿地公园花海",
   "unit": "花海",
   "datetime": "2020-09-20 15:25:06",
@@ -78,11 +78,11 @@
   }
 }
 {
-  "longitude": 102.76930947516249,
-  "latitude": 24.81888552967487,
+  "longitude": 102.769309,
+  "latitude": 24.818885,
   "SN": 4,
-  "width": "5px",
-  "height": "5px",
+  "width": "40",
+  "height": "40",
   "title": "捞鱼河湿地公园风车",
   "unit": "风车",
   "datetime": "2020-09-20 15:25:06",
@@ -104,11 +104,11 @@
   }
 }
 {
-  "longitude": 102.76813198540495,
-  "latitude": 24.820390027925267,
+  "longitude": 102.768131,
+  "latitude": 24.820390,
   "SN": 5,
-  "width": "5px",
-  "height": "5px",
+  "width": "40",
+  "height": "40",
   "title": "捞鱼河湿地公园三层观景台",
   "unit": "三层观景台",
   "datetime": "2020-09-20 15:25:06",
@@ -130,11 +130,11 @@
   }
 }
 {
-  "longitude": 102.76968766663359,
-  "latitude": 24.81807241136764,
+  "longitude": 102.769687,
+  "latitude": 24.818072,
   "SN": 6,
-  "width": "5px",
-  "height": "5px",
+  "width": "40",
+  "height": "40",
   "title": "捞鱼河湿地公园亲子游乐园",
   "unit": "亲子游乐园",
   "datetime": "2020-09-20 15:25:06",
