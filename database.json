@@ -51,3 +51,107 @@
     "textAlign": "center"
   }
 }
+{
+  "longitude": 102.76865501616285,
+  "latitude": 24.818768674677116,
+  "SN": 3,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园花海",
+  "unit": "花海",
+  "datetime": "2020-09-20 15:25:06",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "除了成片成片长在水中的杉树木之外，捞鱼河湿地公园最出名的当数应季而生的花海景致了。郁金香、大丽花、百日菊、剑兰......随着季节的变化，这里的花儿变换着品种，都是好看的模样。",
+  "id": 3,
+  "name": "花海",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/公园.svg",
+  "label": {
+    "content": "花海",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
+{
+  "longitude": 102.76930947516249,
+  "latitude": 24.81888552967487,
+  "SN": 4,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园风车",
+  "unit": "风车",
+  "datetime": "2020-09-20 15:25:06",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "text",
+  "id": 4,
+  "name": "风车",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/风车.svg",
+  "label": {
+    "content": "风车",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
+{
+  "longitude": 102.76813198540495,
+  "latitude": 24.820390027925267,
+  "SN": 5,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园三层观景台",
+  "unit": "三层观景台",
+  "datetime": "2020-09-20 15:25:06",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "三层观景台是捞鱼河景区欣赏滇池的最佳去处，在那里滇池的广阔可以一览无余，你还可以在观景台旁边的小商铺买点海鸥粮，尝试与海鸥进行一次亲密接触。",
+  "id": 5,
+  "name": "三层观景台",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/观景台.svg",
+  "label": {
+    "content": "三层观景台",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
+{
+  "longitude": 102.76968766663359,
+  "latitude": 24.81807241136764,
+  "SN": 6,
+  "width": "5px",
+  "height": "5px",
+  "title": "捞鱼河湿地公园亲子游乐园",
+  "unit": "亲子游乐园",
+  "datetime": "2020-09-20 15:25:06",
+  "src": "",
+  "picture": "http://image.thepaper.cn/www/image/11/142/738.jpg",
+  "article": "text",
+  "id": 6,
+  "name": "亲子游乐园",
+  "iconPath": "http://testdome-9gk6bpszb288ba0b-1304009976.tcloudbaseapp.com/icons/亲子游乐园.svg",
+  "label": {
+    "content": "亲子游乐园",
+    "color": "#FF0202",
+    "borderRadius": 3,
+    "borderWidth": 1,
+    "borderColor": "#FF0202",
+    "bgColor": "#ffffff",
+    "padding": 2,
+    "textAlign": "center"
+  }
+}
